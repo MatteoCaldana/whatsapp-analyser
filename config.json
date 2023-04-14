@@ -1,0 +1,23 @@
+{
+    "filename":"chat.txt",
+    "yearin2000":false,
+    "time_re":"\\[(?P<day>\\d+)/(?P<month>\\d+)/(?P<year>\\d+), (?P<hour>\\d+):(?P<minute>\\d+):(?P<second>\\d+)\\] ",
+    "plaintext_re":["^",""],
+    "mediatext_re":["^‎",""],
+    "emptytext_re":["^","(.*)‎(.*)uesto messaggio"],
+    "nameseparator":": ",
+    "contacts":[
+    ],
+    "mediatype":[
+        "immagine",
+        "audio",
+        "video",
+        "documento",
+        "GIF",
+        "sticker",
+        "‎Scheda contatto"
+    ],
+    "dpi":1000,
+    "savepath":"./output/",
+    "csv_separator":","
+}
